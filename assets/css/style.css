@@ -1,0 +1,84 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Changa One', cursive;
+    margin: 0 0 15px;
+    font-weight: 800;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{
+    padding: 70px 0;
+}
+.box-1,
+.box-2,
+.box-3{
+    background-image: url(../img/team.jpg);
+}
+
+.single-promo-box{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280px;
+    position: relative;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.single-promo-box:hover{
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+}
+
+.single-promo-box:hover .promo-content{
+    margin-bottom: 20px;
+}
+
+.promo-content{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    padding: 30px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.promo-content h2{
+    margin-bottom: 8px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.promo-content p{
+  font-size: 25px;
+    font-weight: 600;
+}
